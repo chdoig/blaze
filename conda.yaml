@@ -1,6 +1,6 @@
 package:
     name: blaze
-    version: "0.6.1"
+    version: "0.6.2"
 
 build:
     number: {{environ.get('BINSTAR_BUILD', 1)}}
@@ -28,6 +28,7 @@ requirements:
       - toolz
       - unicodecsv
       - bcolz
+      - pytables
 
 about:
     home: http://blaze.pydata.org
